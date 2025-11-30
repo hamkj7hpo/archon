@@ -1,0 +1,97 @@
+[
+    {
+        "rpc_address": "155.138.213.71",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.32.60",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "80.239.223.72",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "149.255.37.190",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "149.255.37.186",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.63.23",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.62.36",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "149.255.37.218",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.49.181",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "208.91.110.134",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "72.46.85.189",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "45.77.136.52",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "45.77.156.249",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.176.228.107",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.63.22",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "185.26.8.225",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "216.128.145.225",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "64.130.33.61",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    },
+    {
+        "rpc_address": "149.255.37.166",
+        "rpc_port": 8899,
+        "pubsub_port": 8900
+    }
+]

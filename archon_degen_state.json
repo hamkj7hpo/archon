@@ -1,0 +1,86 @@
+{
+  "cached_sol_balance": 0.225549228,
+  "cached_token_balance": 92.927646,
+  "trade_history": [
+    {
+      "timestamp": "2025-05-27 22:58:29",
+      "action": "BUY",
+      "amount": 124.41932100000002,
+      "sol_amount": 0.053091187260000006,
+      "price": 0.07522857,
+      "txid": "5kkuXLsHquJnQ8DrjYfxokGV4gkbJ35kJsG6gSQtZHZkyyZgJERardmv3zW63ojdnrjrVpBKUFsbCpk9pYaPsqKb",
+      "sea_life_score": 0.8550000000000001,
+      "profit": 0.0,
+      "avg_buy_price": 2349.3829218473547,
+      "exit_target": 2384.623665675065
+    },
+    {
+      "timestamp": "2025-05-28 00:59:34",
+      "action": "SELL_FAILED",
+      "amount": 555.822119,
+      "sol_amount": 0.0,
+      "price": 0.07623924,
+      "txid": "",
+      "sea_life_score": 1.479,
+      "profit": 0.0,
+      "avg_buy_price": 0.07522857,
+      "exit_target": 0.07635699854999999
+    },
+    {
+      "timestamp": "2025-05-28 01:37:00",
+      "action": "BUY",
+      "amount": 92.927646,
+      "sol_amount": 0.039803686799999995,
+      "price": 0.00042832987289918005,
+      "txid": "Lo5vvDMoNM94TWUFGYhXj2Hup5sQhUbNMZCLsWwDKKU7sP1gh3dNyVgVcbZBAvom14jPoPM5tkVJP5M7Cg7Qfoq",
+      "sea_life_score": 1.4460000000000002,
+      "profit": 0.0,
+      "avg_buy_price": 0.00042832987289918005,
+      "exit_target": 0.0004347548209926677
+    }
+  ],
+  "profit_loss": 0.14630864999999998,
+  "initial_snipe_done": true,
+  "tracker_state": {
+    "sol_liquid_available": 0.225549228,
+    "sol_trimmed": 0.0,
+    "avg_buy_price": 0.00042832987289918005,
+    "current_roll": 0.039803686799999995,
+    "token_amount": 92.927646,
+    "last_sell_attempt": 0.0,
+    "last_buy_attempt": 1748396220.1426227,
+    "last_trade_time": 1748396220.1426225,
+    "buy_history": [
+      {
+        "sol_spent": 0.039803686799999995,
+        "token_bought": 92.927646,
+        "price": 2340.505879820992,
+        "timestamp": 1748396220.1426167,
+        "txid": "Lo5vvDMoNM94TWUFGYhXj2Hup5sQhUbNMZCLsWwDKKU7sP1gh3dNyVgVcbZBAvom14jPoPM5tkVJP5M7Cg7Qfoq"
+      }
+    ],
+    "price_history": [
+      {
+        "price": 0.05804361220133951,
+        "timestamp": 1748841062.816444
+      }
+    ]
+  },
+  "market_trends": {
+    "avg_price_last_10": 0.050632046624299716,
+    "price_volatility": 0.05,
+    "avg_sea_life_score": 1.26,
+    "buy_success_rate": 1.0,
+    "sell_profit_rate": 1.0
+  },
+  "last_forced_trade_time": 0.0,
+  "flip_count": 0,
+  "cycle_start_time": 1748386697.660396,
+  "last_cycle_pl": 0.0,
+  "last_price_update": 1748841062.816444,
+  "initial_sol_balance": 0.079240578,
+  "sol_price": 155.94,
+  "trend_15min": "sideways",
+  "exit_target": 0.05891426638435959,
+  "initial_sol": 0.079240578
+}

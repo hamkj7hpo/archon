@@ -1,0 +1,44 @@
+import websocket
+import json
+
+# Load Solana nodes from rpc.json
+def load_rpc_nodes(filename="rpc.json"):
+    """Load the RPC node list from a JSON file."""
+    try:
+        with open(filename, "r") as file:
+            return json.load(file)
+    except Exception as e:
+        print(f"[❌] Failed to load {filename}: {str(e)}")
+        return []
+
+def test_websocket_connection(address, port):
+    """Test if the WebSocket connection to a given node is successful."""
+    ws_url = f"ws://{address}:{port}"
+    try:
+        ws = websocket.create_connection(ws_url, timeout=5)
+        print(f"[✅] WebSocket connection successful: {ws_url}")
+        ws.close()
+        return True
+    except Exception as e:
+        print(f"[❌] WebSocket failed: {ws_url} - {str(e)}")
+        return False
+
+def scan_solana_nodes():
+    """Scan all Solana nodes from the rpc.json file and check for WebSocket support."""
+    nodes = load_rpc_nodes()
+    if not nodes:
+        print("[❌] No nodes found in rpc.json.")
+        return
+
+    print("🔍 Scanning Solana RPC nodes for WebSocket support...\n")
+    for node in nodes:
+        address = node.get("rpc_address")
+        pubsub_port = node.get("pubsub_port")
+
+        if address and pubsub_port:
+            test_websocket_connection(address, pubsub_port)
+        else:
+            print(f"[⚠️] Skipping node {node} - Missing required fields.")
+
+if __name__ == "__main__":
+    scan_solana_nodes()

@@ -1,0 +1,68 @@
+[
+    {
+        "timestamp": "2025-06-01 15:57:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.059430508992246604
+    },
+    {
+        "timestamp": "2025-06-01 18:34:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bull Doji",
+        "close": 0.05959660646898337
+    },
+    {
+        "timestamp": "2025-06-01 20:20:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.05960407396153782
+    },
+    {
+        "timestamp": "2025-06-01 21:35:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.06033152202758962
+    },
+    {
+        "timestamp": "2025-06-02 02:43:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.05966599786265995
+    },
+    {
+        "timestamp": "2025-06-02 02:58:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.05950887721923211
+    },
+    {
+        "timestamp": "2025-06-02 03:19:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.058909929055329796
+    },
+    {
+        "timestamp": "2025-06-02 03:52:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.058032367882907776
+    },
+    {
+        "timestamp": "2025-06-02 04:03:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.058066808691194675
+    },
+    {
+        "timestamp": "2025-06-02 04:10:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.05797410201183914
+    },
+    {
+        "timestamp": "2025-06-02 04:30:00",
+        "token_pair": "FWOG/USD",
+        "doji_type": "Bear Doji",
+        "close": 0.05830997726868256
+    }
+]
